@@ -1,0 +1,56 @@
+                    //     var i = 0;                     //  set your counter to 1
+                    //     function myLoop () {           //  create a loop function
+                    //         setTimeout(function () {    //  call a 3s setTimeout when the loop is called
+                    //             request.post(config.api, {
+                    //                 form: {
+                    //                     team: data[i].team_number,
+                    //                     week: weeks[i],
+                    //                     event: event[i],
+                    //                     ba: 'Blue Alliance'
+                    //                 }
+                    //                 }, (error, res, body) => {
+                    //                 if (error) {
+                    //                     console.error(error)
+                    //                     return
+                    //                 }
+                    //                     console.log(data[i].team_number)
+                                    
+                    //                 console.log(`statusCode: ${res.statusCode}`)
+                    //             })     
+                    //             if (i < data.length) {         
+                    //                 myLoop();             
+                    //             } else {
+                    //                 return;
+                    //             }
+                    //             i++;                        
+                    //         }, 1000)
+                    //     }
+                    //     myLoop(); 
+                    // }
+                    // } else {
+                    //     for(let i = 0; i < data.length; i++){
+                    //         // console.log(data[i].team_number)
+                    //         (function (i) {
+                    //             setTimeout(function() {
+                    //                 console.log(data[i].team_number)
+
+                    //                 request.post(config.api, {
+                    //                     form: {
+                    //                         team: data[i].team_number,
+                    //                         week: weeks[i],
+                    //                         event: event[i],
+                    //                         ba: 'Blue Alliance'
+                    //                     }
+                    //                 }, (error, res, body) => {
+                    //                     if (error) {
+                    //                         console.error(error)
+                    //                         return
+                    //                     }
+                    //                     console.log(`statusCode: ${res.statusCode}`)
+                    //                     // console.log(body)
+                    //                 })
+
+                    //             }, 10000*i)
+                    //         })(i)
+                    //     }
+                    // }
